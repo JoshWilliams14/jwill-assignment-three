@@ -1,0 +1,86 @@
+/*  ADD your styles below --- WHERE INDICATED ---
+    Keep all the comments I have provided.
+    Where I have commented "keep," DO NOT touch that line!
+    */
+
+    /* Color Theme Swatches in Hex
+    .My-Color-Theme-1-hex { color: #B5FFB7; }
+    .My-Color-Theme-2-hex { color: #BAE8A5; }
+    .My-Color-Theme-3-hex { color: #EAFFC1; }
+    .My-Color-Theme-4-hex { color: #E8E8A5; }
+    .My-Color-Theme-5-hex { color: #FFF7B5; } */
+
+body {
+    background: #EAFFC1; /* must change */
+    color: #000; /* may be #000 or #fff */
+    font-family: 'Verdana', 'Arial', sans-serif; /* keep */
+}
+
+article {
+    width: 800px; /* keep */
+    padding: 2rem; /* keep */
+    margin: auto; /* keep */
+    border: 1px solid; /* can delete or change */
+    background: #FFF7B5;
+}
+
+/* --- ADD YOUR STYLES BELOW --- */
+
+header, footer {
+  background: #1A340E;
+  color: #fff;
+}
+
+aside {
+  background: #EAFFC1;;
+}
+
+figure {
+  background: #B5FFB7;
+}
+
+/* --- add your PSEUDO CLASSES below this line --- */
+
+/* - GENERAL LINK COLORS - */
+
+a:link {
+    color: #5E0F7B;
+}
+
+a:visited {
+    color: #17031C;
+}
+
+a:focus {
+    color: #721494;
+}
+
+a:hover {
+    color: #7C16A2;
+}
+
+a:active {
+    color: #350B47;
+}
+
+/* - FOOTER LINK COLORS */
+
+footer a:link {
+    color: #EDCDF9;
+}
+
+footer a:visited {
+    color: #E1A9F4;
+}
+
+footer a:focus {
+    color: #F3DAFB;
+}
+
+footer a:hover {
+    color: #FCF6FE;
+}
+
+footer a:active {
+    color: #DFA9F4;
+}
